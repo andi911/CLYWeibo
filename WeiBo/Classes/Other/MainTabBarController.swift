@@ -35,6 +35,7 @@ extension MainTabBarController {
         for dict in dictArray{
             arrayM.append(controller(dict: dict))
         }
+        viewControllers = arrayM
         
     }
     

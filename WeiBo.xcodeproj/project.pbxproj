@@ -159,6 +159,7 @@
 		2E29065A1FEA41A100B9F54C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				2E2906761FEA511F00B9F54C /* StartImage */,
 				2E29065D1FEA41C800B9F54C /* tabbar.plist */,
 			);
 			path = Resource;
@@ -238,6 +239,13 @@
 				2E29066A1FEA446F00B9F54C /* MineViewController.swift */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		2E2906761FEA511F00B9F54C /* StartImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StartImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -553,6 +561,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39P72N6YMP;
 				INFOPLIST_FILE = WeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = baobiao.com.WeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -568,6 +577,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39P72N6YMP;
 				INFOPLIST_FILE = WeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = baobiao.com.WeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
