@@ -26,7 +26,7 @@ class ZJTabBar: UITabBar {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        let w = bounds.size.width
+        let w = Screen_W
         let h = bounds.size.height
         var tabbarButtonIndex = 0
         
