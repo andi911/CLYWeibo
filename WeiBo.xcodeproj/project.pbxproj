@@ -14,6 +14,15 @@
 		2E2906361FEA410900B9F54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2906341FEA410900B9F54C /* LaunchScreen.storyboard */; };
 		2E2906411FEA410900B9F54C /* WeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906401FEA410900B9F54C /* WeiBoTests.swift */; };
 		2E29064C1FEA410900B9F54C /* WeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29064B1FEA410900B9F54C /* WeiBoUITests.swift */; };
+		2E29065E1FEA41C800B9F54C /* tabbar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E29065D1FEA41C800B9F54C /* tabbar.plist */; };
+		2E2906621FEA42D900B9F54C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906611FEA42D900B9F54C /* MainTabBarController.swift */; };
+		2E2906691FEA444F00B9F54C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906681FEA444F00B9F54C /* HomeViewController.swift */; };
+		2E29066B1FEA446F00B9F54C /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29066A1FEA446F00B9F54C /* MineViewController.swift */; };
+		2E29066D1FEA447E00B9F54C /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29066C1FEA447E00B9F54C /* DiscoverViewController.swift */; };
+		2E29066F1FEA4A6100B9F54C /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29066E1FEA4A6100B9F54C /* Bundle+Extensions.swift */; };
+		2E2906711FEA4C3700B9F54C /* ZJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906701FEA4C3700B9F54C /* ZJNavigationController.swift */; };
+		2E2906731FEA4EAE00B9F54C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906721FEA4EAE00B9F54C /* Common.swift */; };
+		2E2906751FEA504D00B9F54C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906741FEA504D00B9F54C /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		2E2906471FEA410900B9F54C /* WeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E29064B1FEA410900B9F54C /* WeiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiBoUITests.swift; sourceTree = "<group>"; };
 		2E29064D1FEA410900B9F54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E29065D1FEA41C800B9F54C /* tabbar.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = tabbar.plist; sourceTree = "<group>"; };
+		2E2906611FEA42D900B9F54C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2E2906681FEA444F00B9F54C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E29066A1FEA446F00B9F54C /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		2E29066C1FEA447E00B9F54C /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		2E29066E1FEA4A6100B9F54C /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		2E2906701FEA4C3700B9F54C /* ZJNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJNavigationController.swift; sourceTree = "<group>"; };
+		2E2906721FEA4EAE00B9F54C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		2E2906741FEA504D00B9F54C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,7 @@
 		2E29062A1FEA410900B9F54C /* WeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				2E2906591FEA41A100B9F54C /* Classes */,
 				2E29062B1FEA410900B9F54C /* AppDelegate.swift */,
 				2E29062D1FEA410900B9F54C /* ViewController.swift */,
 				2E29062F1FEA410900B9F54C /* Main.storyboard */,
@@ -123,6 +142,102 @@
 				2E29064D1FEA410900B9F54C /* Info.plist */,
 			);
 			path = WeiBoUITests;
+			sourceTree = "<group>";
+		};
+		2E2906591FEA41A100B9F54C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E2906601FEA42A800B9F54C /* Other */,
+				2E29065F1FEA429600B9F54C /* Controller */,
+				2E29065A1FEA41A100B9F54C /* Resource */,
+				2E29065B1FEA41A100B9F54C /* Tool */,
+				2E29065C1FEA41A100B9F54C /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2E29065A1FEA41A100B9F54C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2E29065D1FEA41C800B9F54C /* tabbar.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2E29065B1FEA41A100B9F54C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2E29066E1FEA4A6100B9F54C /* Bundle+Extensions.swift */,
+				2E2906721FEA4EAE00B9F54C /* Common.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2E29065C1FEA41A100B9F54C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E29065F1FEA429600B9F54C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E2906641FEA443700B9F54C /* Discover */,
+				2E2906651FEA443700B9F54C /* Home */,
+				2E2906631FEA443700B9F54C /* Message */,
+				2E2906671FEA443800B9F54C /* Mine */,
+				2E2906661FEA443800B9F54C /* Push */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E2906601FEA42A800B9F54C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2E2906611FEA42D900B9F54C /* MainTabBarController.swift */,
+				2E2906701FEA4C3700B9F54C /* ZJNavigationController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2E2906631FEA443700B9F54C /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2E2906741FEA504D00B9F54C /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		2E2906641FEA443700B9F54C /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				2E29066C1FEA447E00B9F54C /* DiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		2E2906651FEA443700B9F54C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E2906681FEA444F00B9F54C /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2E2906661FEA443800B9F54C /* Push */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		2E2906671FEA443800B9F54C /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2E29066A1FEA446F00B9F54C /* MineViewController.swift */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +349,7 @@
 			files = (
 				2E2906361FEA410900B9F54C /* LaunchScreen.storyboard in Resources */,
 				2E2906331FEA410900B9F54C /* Assets.xcassets in Resources */,
+				2E29065E1FEA41C800B9F54C /* tabbar.plist in Resources */,
 				2E2906311FEA410900B9F54C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +377,14 @@
 			files = (
 				2E29062E1FEA410900B9F54C /* ViewController.swift in Sources */,
 				2E29062C1FEA410900B9F54C /* AppDelegate.swift in Sources */,
+				2E2906621FEA42D900B9F54C /* MainTabBarController.swift in Sources */,
+				2E29066D1FEA447E00B9F54C /* DiscoverViewController.swift in Sources */,
+				2E2906751FEA504D00B9F54C /* MessageViewController.swift in Sources */,
+				2E2906731FEA4EAE00B9F54C /* Common.swift in Sources */,
+				2E2906691FEA444F00B9F54C /* HomeViewController.swift in Sources */,
+				2E29066B1FEA446F00B9F54C /* MineViewController.swift in Sources */,
+				2E29066F1FEA4A6100B9F54C /* Bundle+Extensions.swift in Sources */,
+				2E2906711FEA4C3700B9F54C /* ZJNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

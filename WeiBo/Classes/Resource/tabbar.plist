@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TarbarItems</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>首页</string>
+			<key>image</key>
+			<string>tabbar_home</string>
+			<key>selectImage</key>
+			<string>tabbar_home_highlighted</string>
+			<key>clsName</key>
+			<string>HomeViewController</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>消息</string>
+			<key>image</key>
+			<string>tabbar_message_center</string>
+			<key>selectImage</key>
+			<string>tabbar_message_center_highlighted</string>
+			<key>clsName</key>
+			<string>MessageViewController</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>发现</string>
+			<key>image</key>
+			<string>tabbar_discover</string>
+			<key>selectImage</key>
+			<string>tabbar_discover_highlighted</string>
+			<key>clsName</key>
+			<string>DiscoverViewController</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>我的</string>
+			<key>image</key>
+			<string>tabbar_profile</string>
+			<key>selectImage</key>
+			<string>tabbar_profile_highlighted</string>
+			<key>clsName</key>
+			<string>MineViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
