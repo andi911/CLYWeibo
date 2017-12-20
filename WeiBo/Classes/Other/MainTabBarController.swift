@@ -12,6 +12,13 @@ class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let zjTabBar = ZJTabBar.init(frame: tabBar.frame)
+        setValue(zjTabBar, forKey: "tabBar")
+        zjTabBar.callBackBlock {
+            print("点击了加号")
+        }
+        
         setupChildController()
     }
     

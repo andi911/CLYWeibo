@@ -17,3 +17,7 @@ func CLYBoldfont(number:CGFloat)->UIFont{
     return UIFont.boldSystemFont(ofSize: number)
 }
 
+let Screen_W = UIScreen.main.bounds.size.width
+
+let Screen_H = UIScreen.main.bounds.size.height
+

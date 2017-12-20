@@ -23,6 +23,8 @@
 		2E2906711FEA4C3700B9F54C /* ZJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906701FEA4C3700B9F54C /* ZJNavigationController.swift */; };
 		2E2906731FEA4EAE00B9F54C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906721FEA4EAE00B9F54C /* Common.swift */; };
 		2E2906751FEA504D00B9F54C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906741FEA504D00B9F54C /* MessageViewController.swift */; };
+		2E2906781FEA549300B9F54C /* ZJTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906771FEA549300B9F54C /* ZJTabBar.swift */; };
+		2E29067A1FEA576800B9F54C /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906791FEA576800B9F54C /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		2E2906701FEA4C3700B9F54C /* ZJNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJNavigationController.swift; sourceTree = "<group>"; };
 		2E2906721FEA4EAE00B9F54C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		2E2906741FEA504D00B9F54C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		2E2906771FEA549300B9F54C /* ZJTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJTabBar.swift; sourceTree = "<group>"; };
+		2E2906791FEA576800B9F54C /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 			children = (
 				2E29066E1FEA4A6100B9F54C /* Bundle+Extensions.swift */,
 				2E2906721FEA4EAE00B9F54C /* Common.swift */,
+				2E2906791FEA576800B9F54C /* UIButton+Extension.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				2E2906611FEA42D900B9F54C /* MainTabBarController.swift */,
+				2E2906771FEA549300B9F54C /* ZJTabBar.swift */,
 				2E2906701FEA4C3700B9F54C /* ZJNavigationController.swift */,
 			);
 			path = Other;
@@ -384,9 +390,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E29062E1FEA410900B9F54C /* ViewController.swift in Sources */,
+				2E2906781FEA549300B9F54C /* ZJTabBar.swift in Sources */,
 				2E29062C1FEA410900B9F54C /* AppDelegate.swift in Sources */,
 				2E2906621FEA42D900B9F54C /* MainTabBarController.swift in Sources */,
 				2E29066D1FEA447E00B9F54C /* DiscoverViewController.swift in Sources */,
+				2E29067A1FEA576800B9F54C /* UIButton+Extension.swift in Sources */,
 				2E2906751FEA504D00B9F54C /* MessageViewController.swift in Sources */,
 				2E2906731FEA4EAE00B9F54C /* Common.swift in Sources */,
 				2E2906691FEA444F00B9F54C /* HomeViewController.swift in Sources */,
