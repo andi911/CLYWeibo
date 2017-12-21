@@ -20,6 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainTar = MainTabBarController()
         self.window?.rootViewController = mainTar
         self.window?.makeKeyAndVisible()
+        
+        let lab = YWFPSLabel(frame:CGRect.init(x: 15, y: 30, width: 80, height: 16))
+        UIApplication.shared.keyWindow!.addSubview(lab)
+
         return true
     }
 
@@ -46,5 +50,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension AppDelegate:UITabBarControllerDelegate {
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        print("\(viewController)")
+    }
 }
 

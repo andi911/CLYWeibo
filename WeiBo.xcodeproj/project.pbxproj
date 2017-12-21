@@ -25,6 +25,15 @@
 		2E2906751FEA504D00B9F54C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906741FEA504D00B9F54C /* MessageViewController.swift */; };
 		2E2906781FEA549300B9F54C /* ZJTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906771FEA549300B9F54C /* ZJTabBar.swift */; };
 		2E29067A1FEA576800B9F54C /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2906791FEA576800B9F54C /* UIButton+Extension.swift */; };
+		2EF3111C1FEB41DA00D8FDE9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF311151FEB41D800D8FDE9 /* String+Extension.swift */; };
+		2EF3111D1FEB41DA00D8FDE9 /* UIBarButtonItem+Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF311161FEB41D800D8FDE9 /* UIBarButtonItem+Extesion.swift */; };
+		2EF3111E1FEB41DA00D8FDE9 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF311171FEB41D900D8FDE9 /* Date+Extension.swift */; };
+		2EF3111F1FEB41DA00D8FDE9 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF311181FEB41D900D8FDE9 /* UIImageView+Extension.swift */; };
+		2EF311201FEB41DA00D8FDE9 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF311191FEB41D900D8FDE9 /* UIImage+Extension.swift */; };
+		2EF311211FEB41DA00D8FDE9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3111A1FEB41DA00D8FDE9 /* UIView+Extension.swift */; };
+		2EF311221FEB41DA00D8FDE9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3111B1FEB41DA00D8FDE9 /* UIColor+Extension.swift */; };
+		2EF311271FEB43AE00D8FDE9 /* FFLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF311241FEB43AD00D8FDE9 /* FFLabel.swift */; };
+		2EF311281FEB43AE00D8FDE9 /* YWFPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF311261FEB43AD00D8FDE9 /* YWFPSLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +78,15 @@
 		2E2906741FEA504D00B9F54C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		2E2906771FEA549300B9F54C /* ZJTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJTabBar.swift; sourceTree = "<group>"; };
 		2E2906791FEA576800B9F54C /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		2EF311151FEB41D800D8FDE9 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		2EF311161FEB41D800D8FDE9 /* UIBarButtonItem+Extesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extesion.swift"; sourceTree = "<group>"; };
+		2EF311171FEB41D900D8FDE9 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		2EF311181FEB41D900D8FDE9 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		2EF311191FEB41D900D8FDE9 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		2EF3111A1FEB41DA00D8FDE9 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2EF3111B1FEB41DA00D8FDE9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		2EF311241FEB43AD00D8FDE9 /* FFLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFLabel.swift; sourceTree = "<group>"; };
+		2EF311261FEB43AD00D8FDE9 /* YWFPSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWFPSLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +190,15 @@
 		2E29065B1FEA41A100B9F54C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				2EF311231FEB43AD00D8FDE9 /* FFLabel */,
+				2EF311251FEB43AD00D8FDE9 /* YWFPSLabel */,
+				2EF311161FEB41D800D8FDE9 /* UIBarButtonItem+Extesion.swift */,
+				2EF3111A1FEB41DA00D8FDE9 /* UIView+Extension.swift */,
+				2EF311171FEB41D900D8FDE9 /* Date+Extension.swift */,
+				2EF311191FEB41D900D8FDE9 /* UIImage+Extension.swift */,
+				2EF3111B1FEB41DA00D8FDE9 /* UIColor+Extension.swift */,
+				2EF311181FEB41D900D8FDE9 /* UIImageView+Extension.swift */,
+				2EF311151FEB41D800D8FDE9 /* String+Extension.swift */,
 				2E29066E1FEA4A6100B9F54C /* Bundle+Extensions.swift */,
 				2E2906721FEA4EAE00B9F54C /* Common.swift */,
 				2E2906791FEA576800B9F54C /* UIButton+Extension.swift */,
@@ -252,6 +279,22 @@
 			children = (
 			);
 			path = StartImage;
+			sourceTree = "<group>";
+		};
+		2EF311231FEB43AD00D8FDE9 /* FFLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2EF311241FEB43AD00D8FDE9 /* FFLabel.swift */,
+			);
+			path = FFLabel;
+			sourceTree = "<group>";
+		};
+		2EF311251FEB43AD00D8FDE9 /* YWFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2EF311261FEB43AD00D8FDE9 /* YWFPSLabel.swift */,
+			);
+			path = YWFPSLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,13 +433,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E29062E1FEA410900B9F54C /* ViewController.swift in Sources */,
+				2EF311221FEB41DA00D8FDE9 /* UIColor+Extension.swift in Sources */,
 				2E2906781FEA549300B9F54C /* ZJTabBar.swift in Sources */,
 				2E29062C1FEA410900B9F54C /* AppDelegate.swift in Sources */,
 				2E2906621FEA42D900B9F54C /* MainTabBarController.swift in Sources */,
 				2E29066D1FEA447E00B9F54C /* DiscoverViewController.swift in Sources */,
+				2EF3111E1FEB41DA00D8FDE9 /* Date+Extension.swift in Sources */,
+				2EF3111D1FEB41DA00D8FDE9 /* UIBarButtonItem+Extesion.swift in Sources */,
+				2EF311271FEB43AE00D8FDE9 /* FFLabel.swift in Sources */,
 				2E29067A1FEA576800B9F54C /* UIButton+Extension.swift in Sources */,
+				2EF3111C1FEB41DA00D8FDE9 /* String+Extension.swift in Sources */,
 				2E2906751FEA504D00B9F54C /* MessageViewController.swift in Sources */,
+				2EF3111F1FEB41DA00D8FDE9 /* UIImageView+Extension.swift in Sources */,
+				2EF311281FEB43AE00D8FDE9 /* YWFPSLabel.swift in Sources */,
 				2E2906731FEA4EAE00B9F54C /* Common.swift in Sources */,
+				2EF311211FEB41DA00D8FDE9 /* UIView+Extension.swift in Sources */,
+				2EF311201FEB41DA00D8FDE9 /* UIImage+Extension.swift in Sources */,
 				2E2906691FEA444F00B9F54C /* HomeViewController.swift in Sources */,
 				2E29066B1FEA446F00B9F54C /* MineViewController.swift in Sources */,
 				2E29066F1FEA4A6100B9F54C /* Bundle+Extensions.swift in Sources */,
