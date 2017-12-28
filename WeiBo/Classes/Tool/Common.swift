@@ -22,3 +22,16 @@ let Screen_W = UIScreen.main.bounds.size.width
 let Screen_H = UIScreen.main.bounds.size.height
 // 1 的时候出现  0 的时候隐藏
 let FPSLabel = 1
+
+func DLog<T>(message : T, file : String = #file, line : Int = #line){
+    
+    #if DEBUG
+        
+        let filepath = (file as NSString).lastPathComponent
+        
+        let fun = #function
+        print("\(filepath)-\(fun)-[\(line)]-\(message)")
+        
+    #endif
+}
+
